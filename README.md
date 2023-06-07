@@ -15,46 +15,82 @@
 
 2. Clone the project, you can use the following command on your local terminal:
  
-   ```
+   ```bash
    git clone https://github.com/shivang21007/Fun-Chat.git
    ```
   
   # 📡 To install node Dependencies 
   
   1. Go to backend folder 
-   ``` 
+   ```bash 
    cd backend
    ```
   2. run in terminal 
-   ``` 
+   ```bash 
   npm install express socket.io 
    ```
 
   3. Again Go to frontend folder 
-  ``` 
+  ```bash 
   cd frontend
   ```
-  4.  run in terminal 
-     ``` 
-     npm install socket.io-client nonoid
-     ```
+  4. Run in terminal
+   ```bash
+   npm install socket.io-client nonoid  
+   ```
     
    # 💻 To Start the Application on your local system.
    1. Fontend -> Go to frontend folder, run command on your local terminal 
-   ```
+   ```bash
    npm start
    ```
    2. Backend -> Go to backend folder, run command on your local terminal 
-   ``` 
+   ```bash
    npm start
    ``` 
    3. Make sure both command are running in two terminals simontaneously.
    
    4. Now Open your Browers as run 
-   ```
+   ```bash
    http://localhost:3000/
    ```
    5. 🎉You have successfully run the application on your local system.
+   
+   # 🥂After making a change
+
+1. Create a new branch
+
+```bash
+git checkout -b YourBranchName
+```
+
+2. Add it to staging area
+
+```bash
+git add .
+```
+
+3. Commit your changes with
+
+```bash
+git commit -m "your message"
+```
+
+4. Push your changes
+
+```bash
+git push -u origin branchname
+```
+
+Push your changes to your fork of the repository by running the git push command followed by the name of your remote and the name of your branch. For example: git push origin new-feature
+
+Go to the repository page on GitHub and click the "Compare & pull request" button.
+
+Review your changes and click the "Create pull request" button.
+
+Enter a title and a description for your pull request and click the "Create pull request" button.
+
+That's it! You have now successfully made a pull request with git to a remote repository.
 
 
 
