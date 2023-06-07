@@ -56,41 +56,43 @@
    ```
    5. 🎉You have successfully run the application on your local system.
    
-   # 🥂After making a change
+   #  🥂After making a change
 
-1. Create a new branch
+   1. Create a new branch
+  
+   ```bash
+   git checkout -b YourBranchName
+   ```
 
-```bash
-git checkout -b YourBranchName
-```
+   2. Add it to staging area
+ 
+   ```bash
+   git add .
+   ```
 
-2. Add it to staging area
+   3. Commit your changes with
 
-```bash
-git add .
-```
+   ```bash
+   git commit -m "your message"
+   ```
 
-3. Commit your changes with
+   4. Push your changes
+ 
+   ```bash
+   git push -u origin branchname
+   ```
 
-```bash
-git commit -m "your message"
-```
+   Push your changes to your fork of the repository by running the git push command followed by the name of your remote and the name of your branch. For example:
+   git push origin new-feature
+   
+  
+   Go to the repository page on GitHub and click the "Compare & pull request" button.
 
-4. Push your changes
+   Review your changes and click the "Create pull request" button.
 
-```bash
-git push -u origin branchname
-```
+   Enter a title and a description for your pull request and click the "Create pull request" button.
 
-Push your changes to your fork of the repository by running the git push command followed by the name of your remote and the name of your branch. For example: git push origin new-feature
-
-Go to the repository page on GitHub and click the "Compare & pull request" button.
-
-Review your changes and click the "Create pull request" button.
-
-Enter a title and a description for your pull request and click the "Create pull request" button.
-
-That's it! You have now successfully made a pull request with git to a remote repository.
+   That's it! You have now successfully made a pull request with git to a remote repository. 😎
 
 
 
