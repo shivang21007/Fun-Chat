@@ -16,8 +16,9 @@
 2. Clone the project, you can use the following command on your local terminal:
  
    ```bash
-   git clone https://github.com/shivang21007/Fun-Chat.git
+   git clone https://github.com/your-user-name/Fun-Chat.git
    ```
+3. Also don't forget to give star to codebase after using it ✨.
   
   # 📡 To install node Dependencies 
   
