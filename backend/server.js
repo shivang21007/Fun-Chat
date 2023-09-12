@@ -3,18 +3,28 @@ const app = express();
 
 const server = require("http").createServer(app);
 
+// const io = require("socket.io")(server, {
+//   cors: {
+//     origin: "*",
+//   },
+// });
+
+// server-side
 const io = require("socket.io")(server, {
   cors: {
-    origin: "*",
-  },
+    origin: "http://localhost:3000",
+    methods: ["GET", "POST"],
+    credentials: true
+  }
 });
+
 
 io.on("connection", (socket) => {
   console.log("What is Socket: ", socket);
   console.log("Socket is active to be connected");
 
   socket.on("chat", (payload) => {
-    console.log("what is payload", payload);
+    //console.log("what is payload", payload);
     io.emit("chat", payload);
   });
 });
