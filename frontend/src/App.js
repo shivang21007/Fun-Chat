@@ -7,7 +7,7 @@ import io from "socket.io-client";
 import { nanoid } from "nanoid";
 
 // no dotenv
-//const socket = io.connect("http://192.168.0.100:8000"); //if you want to run-multiple devices
+//const socket = io.connect("http://162.16.0.3:8000"); //if you want to run-multiple devices
 const socket = io.connect("http://localhost:8000");
 
 //User Name Assign
