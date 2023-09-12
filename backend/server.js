@@ -12,7 +12,7 @@ const server = require("http").createServer(app);
 // server-side
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://funy-chat.vercel.app",
     methods: ["GET", "POST"],
     credentials: true
   }
