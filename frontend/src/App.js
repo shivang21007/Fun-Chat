@@ -11,7 +11,11 @@ import { nanoid } from "nanoid";
 // no dotenv
 //const socket = io.connect("http://162.16.0.3:8000"); //if you want to run-multiple devices
 const socket = io.connect("https://fun-chat-server.vercel.app",{
-  withCredentials: true,
+  cors: {
+    origin: "https://fun-chat-server.vercel.app",
+    methods: ["GET", "POST"],
+    credentials: true
+  }
 });
 
 //User Name Assign
